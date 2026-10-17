@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#a63336">
+  <meta name="description" content="One year of us. A little invitation to a very special dinner in Helsinki, on 22 November 2026.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="A table for two ♡">
+  <meta property="og:description" content="One year of us. One very delicious date. A little invitation, just for you.">
+  <title>A table for two · 22.11</title>
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="restaurants.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to invitation</a>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="A table for two, home">a table for two <span>♡</span></a>
+    <span class="header-date">HELSINKI <i>✳</i> 22 NOVEMBER 2026</span>
+    <button class="text-button" id="open-shortlist">The little shortlist <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer><span>Made with love. And an appetite.</span><span>365 days. Still my favourite person. <b>♡</b></span></footer>
+  <dialog id="shortlist-dialog" aria-labelledby="shortlist-title">
+    <div class="dialog-heading"><div><p class="eyebrow">GOOD FOOD, GREAT COMPANY</p><h2 id="shortlist-title">Our little shortlist.</h2></div><button class="close" id="close-shortlist" aria-label="Close restaurant shortlist">×</button></div>
+    <p>Eight places on our radar. Five extra little discoveries. Pick a date to see which ones fit.</p>
+    <div class="date-filter" id="date-filter" role="group" aria-label="Restaurant date filter"></div>
+    <p class="fineprint">Dates combine our shortlist restrictions with published opening days. A table still needs to be booked.</p>
+    <div id="restaurant-list"></div>
+    <p class="fineprint">Menu prices checked 17 October 2026. Examples are for two, before optional extras. November menus and hours may change. <a href="research.md" target="_blank" rel="noopener">Sources & budget notes ↗</a></p>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">This little invitation needs JavaScript for the survey. Please enable it, then reload.</p></noscript>
+</body>
+</html>
