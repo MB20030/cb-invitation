@@ -81,3 +81,8 @@ Photographs show the actual restaurants and their food. Files are resized locall
 
 - On the plate: Olivia Restaurants. [Source](https://oliviarestaurants.fi/en/), [original photograph](https://oliviarestaurants.fi/wp-content/uploads/sites/3/2025/10/Hoest.jpg).
 - The atmosphere: Olivia Restaurants. [Source](https://oliviarestaurants.fi/en/restaurants/central-station/), [original photograph](https://oliviarestaurants.fi/wp-content/uploads/sites/3/2023/04/Olivia-Central-Station-web-1024x683.jpg).
+
+## Bona Fide
+
+- On the plate: Ilpo Vainonen / Bona Fide. [Source](https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/bona-fide), [original photograph](https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/04a3b84cfa724fa3a704d7cba6ea06e5.jpg).
+- The atmosphere: Ilpo Vainonen / Bona Fide. [Source](https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/bona-fide), [original photograph](https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/52f9e55f370e4373944b7905d2072136.jpeg).

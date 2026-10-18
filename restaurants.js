@@ -675,6 +675,48 @@ window.DateNight = (() => {
         "source": "https://oliviarestaurants.fi/en/restaurants/central-station/"
       }
     ]
+  },
+  {
+    "id": "bona-fide",
+    "name": "Bona Fide",
+    "family": "seasonal",
+    "food": "modern",
+    "cuisine": "Seasonal bistro · Mediterranean influences",
+    "days": [
+      "21"
+    ],
+    "moods": [
+      "cozy",
+      "lively",
+      "occasion"
+    ],
+    "styles": [
+      "tasting",
+      "comfort"
+    ],
+    "description": "A little neighbourhood bistro in Kruununhaka, seasonal flavours and a menu that makes an evening of it. A cosy table and something new to discover together.",
+    "fact": "Bona Fide’s menu is so seasonal that even its sample menu can change from one day to the next.",
+    "address": "Vironkatu 8",
+    "instagram": "bonafide.hki",
+    "url": "https://www.bonafide.fi/",
+    "menu": "https://www.bonafide.fi/",
+    "note": "Our shortlist: 21 November only.",
+    "photos": [
+      {
+        "src": "assets/restaurants/bona-fide-food.webp",
+        "alt": "A plated starter with a golden croquette, herbs and edible flowers at Bona Fide",
+        "label": "On the plate",
+        "credit": "Ilpo Vainonen / Bona Fide",
+        "source": "https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/bona-fide"
+      },
+      {
+        "src": "assets/restaurants/bona-fide-venue.webp",
+        "alt": "A candlelit dining table inside Bona Fide in Helsinki",
+        "label": "The atmosphere",
+        "credit": "Ilpo Vainonen / Bona Fide",
+        "source": "https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/bona-fide"
+      }
+    ]
   }
 ];
   const dayLabel = day => ({any:'Any evening, 21–23 November',21:'Saturday, 21 November',22:'Sunday, 22 November',23:'Monday, 23 November'})[day];
