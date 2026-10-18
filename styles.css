@@ -20,3 +20,7 @@
 @media(max-width:680px){.hero-title{font-size:clamp(44px,11vw,58px);letter-spacing:-2px}.hero-journey{max-width:360px;font-size:15px;margin:0 auto 24px}}
 
 .choices.four-choices{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:680px){.choices.four-choices{grid-template-columns:1fr}}
+
+/* Keep survey navigation within reach on every question. */
+.quiz-bottom{flex-wrap:wrap}.quiz-back{font-size:14px;color:var(--red);padding:14px 12px;border:1px solid var(--line);border-radius:3px;min-width:90px}.quiz-bottom>p,.quiz-bottom>.flexible-date{flex:1;text-align:center}.review-answers{display:table;margin:0 auto 18px;font-size:13px}
+@media(max-width:680px){.quiz-bottom>p,.quiz-bottom>.flexible-date{flex-basis:100%;order:2}.quiz-bottom:has(.flexible-date){flex-direction:row;align-items:center}.quiz-bottom:has(.flexible-date) .primary{width:auto}.quiz-bottom .quiz-back{min-width:90px}}
