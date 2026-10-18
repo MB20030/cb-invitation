@@ -15,3 +15,6 @@
 /* Framed landing photograph; retain the complete image at every screen size. */
 .hero-photo{min-width:0;padding:12px 5px 35px}.memory-frame{margin:0;padding:12px 12px 22px;background:#fffbf3;border:1px solid var(--line);box-shadow:0 12px 30px #56362b14;transform:rotate(2deg)}.hero-photo .memory-frame img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;margin:0;border-radius:2px}.memory-frame figcaption{padding-top:18px;text-align:center;font-size:18px;line-height:1.5}.hero-photo .seal{top:-10px;right:-8px;bottom:auto}
 @media(max-width:680px){.hero-photo{margin-top:30px;padding:10px 0 18px}.memory-frame{padding:9px 9px 18px;transform:rotate(1.5deg)}.memory-frame figcaption{font-size:16px;padding-top:15px}.hero-photo .seal{top:-13px;right:-7px;bottom:auto}}
+
+.hero-title{font-size:clamp(48px,5.5vw,88px);letter-spacing:-3px;margin-bottom:22px}.hero-journey{max-width:440px;font-size:17px;line-height:1.7;color:var(--muted);margin-bottom:26px}
+@media(max-width:680px){.hero-title{font-size:clamp(44px,11vw,58px);letter-spacing:-2px}.hero-journey{max-width:360px;font-size:15px;margin:0 auto 24px}}
