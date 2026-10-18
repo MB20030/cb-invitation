@@ -413,7 +413,8 @@ window.DateNight = (() => {
         "credit": "Yes Yes Yes",
         "source": "https://yesyesyes.fi/"
       }
-    ]
+    ],
+    "nostalgic": true
   },
   {
     "id": "brasa",
@@ -542,13 +543,146 @@ window.DateNight = (() => {
         "source": "https://forzahelsinki.fi/en/"
       }
     ]
+  },
+  {
+    "id": "the-cock",
+    "name": "The Cock",
+    "food": "classics",
+    "cuisine": "Modern brasserie classics",
+    "days": [
+      "21",
+      "23"
+    ],
+    "moods": [
+      "lively",
+      "occasion"
+    ],
+    "styles": [
+      "comfort",
+      "sharing"
+    ],
+    "description": "An old favourite by Kasarmitori. Brasserie classics, a lively room and another evening together somewhere we already know.",
+    "fact": "The Cock’s “likour” neon sign was made from the letters of the old Kellarikrouvi sign, keeping a little of the building’s restaurant history alive.",
+    "address": "Fabianinkatu 17",
+    "instagram": "thecockhelsinki",
+    "url": "https://thecock.fi/",
+    "menu": "https://thecock.fi/menu",
+    "note": "Monday–Saturday; closed Sunday.",
+    "family": "nostalgic",
+    "nostalgic": true,
+    "photos": [
+      {
+        "src": "assets/restaurants/the-cock-food.webp",
+        "alt": "Food shared at The Cock in Helsinki",
+        "label": "On the plate",
+        "credit": "Taste of Prague",
+        "source": "https://www.tasteofprague.com/pragueblog/tasties-on-the-road-helsinki"
+      },
+      {
+        "src": "assets/restaurants/the-cock-venue.webp",
+        "alt": "Inside The Cock in Helsinki",
+        "label": "The atmosphere",
+        "credit": "Dorit Salutskij / The Cock",
+        "source": "https://tpr.hel.fi/TPRalusta/en/notification/info/2588/"
+      }
+    ]
+  },
+  {
+    "id": "kuukuu",
+    "name": "Ravintola KuuKuu",
+    "food": "classics",
+    "cuisine": "Finnish & Scandinavian classics",
+    "days": [
+      "21",
+      "22",
+      "23"
+    ],
+    "moods": [
+      "cozy",
+      "occasion"
+    ],
+    "styles": [
+      "comfort",
+      "tasting"
+    ],
+    "description": "A familiar corner of Töölö, Finnish classics and a cosy table. Let’s go back for another lovely evening.",
+    "fact": "KuuKuu has been on the corner of Museokatu and Minervankatu since 1990. Before that, its premises housed a butcher’s shop and a Valio ice-cream parlour.",
+    "address": "Museokatu 17",
+    "instagram": "kuukuuravintola",
+    "url": "https://kuukuu.fi/en/home/",
+    "menu": "https://kuukuu.fi/en/menu-en/a-la-carte/",
+    "note": "Open every day 12:00–23:00; kitchen closes at 22:00.",
+    "family": "nostalgic",
+    "nostalgic": true,
+    "photos": [
+      {
+        "src": "assets/restaurants/kuukuu-food.webp",
+        "alt": "A bowl of salmon soup served at KuuKuu",
+        "label": "On the plate",
+        "credit": "KuuKuu",
+        "source": "https://kuukuu.fi/en/home/"
+      },
+      {
+        "src": "assets/restaurants/kuukuu-venue.webp",
+        "alt": "Inside Ravintola KuuKuu in Helsinki",
+        "label": "The atmosphere",
+        "credit": "KuuKuu",
+        "source": "https://kuukuu.fi/en/home/"
+      }
+    ]
+  },
+  {
+    "id": "olivia-central",
+    "name": "Olivia Central Station",
+    "food": "italian",
+    "cuisine": "Italian · pasta & pizza",
+    "days": [
+      "21",
+      "22",
+      "23"
+    ],
+    "moods": [
+      "occasion",
+      "lively",
+      "cozy"
+    ],
+    "styles": [
+      "comfort",
+      "sharing"
+    ],
+    "description": "Back to our Italian favourite in the station’s old ticket hall. Pasta, pizza and familiar surroundings for a new memory.",
+    "fact": "Olivia Central Station occupies the railway station’s former ticket hall, an eight-metre-high space inspired by Milan.",
+    "address": "Kaivokatu 1",
+    "instagram": "oliviarestaurants",
+    "url": "https://oliviarestaurants.fi/en/restaurants/central-station/",
+    "menu": "https://oliviarestaurants.fi/en/our-menu/",
+    "note": "Open daily; Sunday 12:00–21:30. The kitchen closes 30 minutes before the restaurant.",
+    "family": "nostalgic",
+    "nostalgic": true,
+    "photos": [
+      {
+        "src": "assets/restaurants/olivia-central-food.webp",
+        "alt": "A seasonal dish served at Olivia Restaurants",
+        "label": "On the plate",
+        "credit": "Olivia Restaurants",
+        "source": "https://oliviarestaurants.fi/en/"
+      },
+      {
+        "src": "assets/restaurants/olivia-central-venue.webp",
+        "alt": "Inside Olivia Central Station in Helsinki’s former ticket hall",
+        "label": "The atmosphere",
+        "credit": "Olivia Restaurants",
+        "source": "https://oliviarestaurants.fi/en/restaurants/central-station/"
+      }
+    ]
   }
 ];
   const dayLabel = day => ({any:'Any evening, 21–23 November',21:'Saturday, 21 November',22:'Sunday, 22 November',23:'Monday, 23 November'})[day];
+  const matchesFamily = (restaurant, family) => family==='nostalgic' ? restaurant.nostalgic===true : restaurant.family===family;
   function rank(answers) {
-    return restaurants.filter(r => (answers.date==='any'||r.days.includes(answers.date)) && r.family === answers.family)
+    return restaurants.filter(r => (answers.date==='any'||r.days.includes(answers.date)) && matchesFamily(r, answers.family))
       .map(r => ({...r,score:(r.food===answers.food?10:0)+(r.moods.includes(answers.mood)?4:0)+(r.moods[0]===answers.mood?1:0)+(r.styles.includes(answers.style)?3:0)}))
       .sort((a,b)=>b.score-a.score || restaurants.findIndex(r=>r.id===a.id)-restaurants.findIndex(r=>r.id===b.id));
   }
-  return {restaurants,dates,dayLabel,rank};
+  return {restaurants,dates,dayLabel,rank,matchesFamily};
 })();

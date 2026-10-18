@@ -66,3 +66,18 @@ Photographs show the actual restaurants and their food. Files are resized locall
 
 - On the plate: Forza. [Source](https://forzahelsinki.fi/en/), [original photograph](https://forzahelsinki.fi/pizzeria/wp-content/uploads/2024/06/Forza-Pizza.webp).
 - The atmosphere: Forza. [Source](https://forzahelsinki.fi/en/), [original photograph](https://forzahelsinki.fi/pizzeria/wp-content/uploads/2024/07/Forza-sali.webp).
+
+## The Cock
+
+- On the plate: Taste of Prague. [Source](https://www.tasteofprague.com/pragueblog/tasties-on-the-road-helsinki), [original photograph](https://images.squarespace-cdn.com/content/v1/53162615e4b08f2413caa7c2/1438678080354-C5A2ODTK1FDASEIUBCBS/travel-helsinki-guide?format=1000w).
+- The atmosphere: Dorit Salutskij / The Cock. [Source](https://tpr.hel.fi/TPRalusta/en/notification/info/2588/), [original photograph](https://tprimages.blob.core.windows.net/public/2588/84869160-e4a4-44bd-8861-66bf75d54c05.jpg).
+
+## Ravintola KuuKuu
+
+- On the plate: KuuKuu. [Source](https://kuukuu.fi/en/home/), [original photograph](https://kuukuu.fi/wp-content/uploads/2024/10/lohikeitto_1920x1080_1920x1080_acf_cropped-1920x1080.jpg).
+- The atmosphere: KuuKuu. [Source](https://kuukuu.fi/en/home/), [original photograph](https://kuukuu.fi/wp-content/uploads/2023/11/1-kuukuu-marras23-pieni.jpg).
+
+## Olivia Central Station
+
+- On the plate: Olivia Restaurants. [Source](https://oliviarestaurants.fi/en/), [original photograph](https://oliviarestaurants.fi/wp-content/uploads/sites/3/2025/10/Hoest.jpg).
+- The atmosphere: Olivia Restaurants. [Source](https://oliviarestaurants.fi/en/restaurants/central-station/), [original photograph](https://oliviarestaurants.fi/wp-content/uploads/sites/3/2023/04/Olivia-Central-Station-web-1024x683.jpg).

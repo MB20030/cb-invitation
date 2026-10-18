@@ -18,3 +18,5 @@
 
 .hero-title{font-size:clamp(48px,5.5vw,88px);letter-spacing:-3px;margin-bottom:22px}.hero-journey{max-width:440px;font-size:17px;line-height:1.7;color:var(--muted);margin-bottom:26px}
 @media(max-width:680px){.hero-title{font-size:clamp(44px,11vw,58px);letter-spacing:-2px}.hero-journey{max-width:360px;font-size:15px;margin:0 auto 24px}}
+
+.choices.four-choices{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:680px){.choices.four-choices{grid-template-columns:1fr}}
