@@ -717,6 +717,50 @@ window.DateNight = (() => {
         "source": "https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/bona-fide"
       }
     ]
+  },
+  {
+    "id": "kuu",
+    "name": "Ravintola Kuu",
+    "family": "nostalgic",
+    "nostalgic": true,
+    "food": "classics",
+    "cuisine": "Finnish & Scandinavian classics",
+    "days": [
+      "21",
+      "22",
+      "23"
+    ],
+    "moods": [
+      "occasion",
+      "cozy"
+    ],
+    "styles": [
+      "tasting",
+      "comfort"
+    ],
+    "description": "Back to a familiar table in Töölö. Finnish classics, seasonal flavours and a relaxed evening in a place we already know.",
+    "fact": "Kuu means “the Moon” in Finnish. The restaurant has welcomed diners in Töölö since 1966.",
+    "address": "Töölönkatu 27",
+    "instagram": "ravintola_kuu",
+    "url": "https://ravintolakuu.fi/",
+    "menu": "https://ravintolakuu.fi/en/menu-en/a-la-carte/",
+    "note": "Open daily: weekdays 16:00–23:00, weekends 14:00–23:00. Last orders at 22:00.",
+    "photos": [
+      {
+        "src": "assets/restaurants/kuu-food.webp",
+        "alt": "Two plated dishes served at Ravintola Kuu",
+        "label": "On the plate",
+        "credit": "Ravintola Kuu",
+        "source": "https://ravintolakuu.fi/"
+      },
+      {
+        "src": "assets/restaurants/kuu-venue.webp",
+        "alt": "The dining room at Ravintola Kuu in Töölö",
+        "label": "The atmosphere",
+        "credit": "Ravintola Kuu",
+        "source": "https://ravintolakuu.fi/"
+      }
+    ]
   }
 ];
   const dayLabel = day => ({any:'Any evening, 21–23 November',21:'Saturday, 21 November',22:'Sunday, 22 November',23:'Monday, 23 November'})[day];

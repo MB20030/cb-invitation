@@ -86,3 +86,8 @@ Photographs show the actual restaurants and their food. Files are resized locall
 
 - On the plate: Ilpo Vainonen / Bona Fide. [Source](https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/bona-fide), [original photograph](https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/04a3b84cfa724fa3a704d7cba6ea06e5.jpg).
 - The atmosphere: Ilpo Vainonen / Bona Fide. [Source](https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/bona-fide), [original photograph](https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/52f9e55f370e4373944b7905d2072136.jpeg).
+
+## Ravintola Kuu
+
+- On the plate: Ravintola Kuu. [Source](https://ravintolakuu.fi/), [original photograph](https://ravintolakuu.fi/wp-content/uploads/2023/11/2-kuu-marras23-pieni.jpg).
+- The atmosphere: Ravintola Kuu. [Source](https://ravintolakuu.fi/), [original photograph](https://ravintolakuu.fi/wp-content/uploads/2018/08/20111110-KUU-Tilakuvaus-030-Sali_1920x1080_acf_cropped-1.jpg).
