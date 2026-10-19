@@ -88,47 +88,6 @@ window.DateNight = (() => {
     ]
   },
   {
-    "id": "shelter",
-    "name": "Shelter",
-    "family": "seasonal",
-    "food": "finnish",
-    "cuisine": "Modern Finnish · harbour-side",
-    "days": [
-      "21",
-      "23"
-    ],
-    "moods": [
-      "cozy",
-      "occasion"
-    ],
-    "styles": [
-      "tasting"
-    ],
-    "description": "A cosy harbour hideaway, seasonal cooking and a rather lovely excuse to dress up a little.",
-    "fact": "Dinner is served in a converted warehouse on Katajanokka harbour. Shelter has been here since 2016.",
-    "address": "Kanavaranta 7",
-    "instagram": "shelterhki",
-    "url": "https://www.shelter.fi/",
-    "menu": "https://www.shelter.fi/menu-en",
-    "note": "Our shortlist: 21 or 23 November only.",
-    "photos": [
-      {
-        "src": "assets/restaurants/shelter-food.webp",
-        "alt": "A dish served at Shelter",
-        "label": "On the plate",
-        "credit": "Shelter",
-        "source": "https://www.shelter.fi/private-parties"
-      },
-      {
-        "src": "assets/restaurants/shelter-venue.webp",
-        "alt": "Shelter’s upstairs dining room",
-        "label": "The upstairs dining room",
-        "credit": "Shelter",
-        "source": "https://www.shelter.fi/private-parties"
-      }
-    ]
-  },
-  {
     "id": "aoi",
     "name": "Aoi",
     "family": "seasonal",

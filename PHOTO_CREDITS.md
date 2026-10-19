@@ -12,11 +12,6 @@ Photographs show the actual restaurants and their food. Files are resized locall
 - On the plate: Flor. [Source](https://www.restaurantflor.com/photo), [original photograph](https://images.squarespace-cdn.com/content/v1/678ab4878d018f01bf50f72e/35558af3-b67b-4c39-8f6e-957b0dde5298/FLOR_032026_012.jpg).
 - The atmosphere: Flor. [Source](https://www.restaurantflor.com/photo), [original photograph](https://images.squarespace-cdn.com/content/v1/678ab4878d018f01bf50f72e/04017efd-6809-4312-b837-a16f5cfabde2/Flor_022025-12.jpg).
 
-## Shelter
-
-- On the plate: Shelter. [Source](https://www.shelter.fi/private-parties), [original photograph](https://images.squarespace-cdn.com/content/v1/5fb4d0be6b655c2dd15a3882/1605691310633-8223QVPQJM13ZX3CN82C/ravintola_shelter-45.jpg).
-- The upstairs dining room: Shelter. [Source](https://www.shelter.fi/private-parties), [original photograph](https://images.squarespace-cdn.com/content/v1/5fb4d0be6b655c2dd15a3882/47775611-d210-4a91-8acf-53fece12fc19/Upstairs+1.jpg).
-
 ## Aoi
 
 - From the kitchen: Henri Vogt / Aoi. [Source](https://tpr.hel.fi/TPRalusta/en/notification/info/10992/), [original photograph](https://tprimages.blob.core.windows.net/public/10992/311e3071-4430-40e5-9552-afda7285f074.jpg).
